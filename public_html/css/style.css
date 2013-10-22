@@ -1,0 +1,101 @@
+body {
+	background-color: #c4bdb8;
+	width: 801px;
+	margin-left: auto;
+	margin-right: auto;
+	font-family: sans-serif;
+}
+
+#menu {
+	background-color: #663366;
+	height: 60px;
+	width: 801px;
+	color: white;
+	
+}
+#logo {
+	background-image: url(/images/logo.png);
+	height: 252px;
+	width: 378px;
+	display: inline-block;
+	margin-bottom: 15px;
+}
+
+#hours {
+	background-image: url(/images/hours.png);
+	height: 62px;
+	width: 350px;
+	display: inline-block;
+	margin-left: 15px;
+	margin-bottom: 85px;
+
+}
+
+.menu-item {
+	display: inline-block;
+	margin-top: 15px;
+	position: relative;
+	left: 20px;
+	
+}
+
+#facebook {
+	margin-right: 10px;
+	margin-top: 10px;
+	float: right;
+}
+
+#content-wrapper {
+	background-color: white;
+	width: 801px;
+	float: right;
+}
+
+#content {
+	padding: 30px 30px 30px 30px;
+}
+
+#rotate {
+	width: 801px;
+	height: 528px;
+	clear: both;
+	background-image: url(/images/animatedfile.gif);
+}
+
+#footer-wrapper {
+	width: 801px;
+	background-color: white;
+}
+#footer {
+	padding-left: 75px;
+	padding-top: 25px;
+	padding-bottom: 25px;
+	height: 52px;
+	width: 585px;
+	background-image: url(/images/newest_shopping_destination.png);
+	background-repeat: no-repeat;
+	background-position-x: 75px;
+	background-position-y: 25px;
+
+}
+
+#contact-wrapper {
+	width: 801px;
+}
+
+#phone {
+	margin-top: 10px;
+	display: inline-block;
+	width: 200px;
+	float: left;
+}
+
+#address {
+	margin-top: 10px;
+	float: right;
+}
+
+a:link img {
+	text-decoration: none;
+	border: none;
+}
