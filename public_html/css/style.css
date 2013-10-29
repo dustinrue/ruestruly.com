@@ -67,16 +67,16 @@ body {
 	background-color: white;
 }
 #footer {
-	padding-left: 75px;
+
 	padding-top: 25px;
 	padding-bottom: 25px;
 	height: 52px;
 	width: 585px;
+	margin-left: auto;
+	margin-right: auto;
 	background-image: url(/images/newest_shopping_destination.png);
 	background-repeat: no-repeat;
-	background-position-x: 75px;
 	background-position-y: 25px;
-
 }
 
 #contact-wrapper {
