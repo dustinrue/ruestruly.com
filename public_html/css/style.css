@@ -13,6 +13,17 @@ body {
 	color: white;
 	
 }
+
+#menu .first {
+	margin-left: 23px;
+}
+#menu .item {
+	display: inline-block;
+	padding-right: 10px;
+	font-size: 11pt;
+	margin-top: 23px;
+
+}
 #logo {
 	background-image: url(/images/logo.png);
 	height: 252px;
