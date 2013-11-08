@@ -76,7 +76,7 @@ body {
 	margin-right: auto;
 	background-image: url(/images/newest_shopping_destination.png);
 	background-repeat: no-repeat;
-	background-position-y: 25px;
+	background-position: 0 25px;
 }
 
 #contact-wrapper {
