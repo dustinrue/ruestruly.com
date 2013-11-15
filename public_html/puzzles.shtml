@@ -1,0 +1,25 @@
+<html>
+<head>
+<title>Decor and More from Rue's Truly | Puzzles</title>
+<!--#include virtual="/includes/header.inc" -->
+</head>
+
+<body>
+
+<!--#include virtual="/includes/top.inc"-->
+
+<div id="shadowboxer">
+<!--#include virtual="/includes/menu.inc"-->
+	
+<div id="content-wrapper">
+	<div id="content">TEMPLATE</div>
+</div>
+
+<div id="footer-wrapper">
+	<div id="footer"></div>
+</div>
+<!--#include virtual="/includes/contact.inc"-->
+</div>
+<!--#include virtual="/includes/footer.inc"-->
+</body>
+</html>

@@ -4,8 +4,16 @@ body {
 	margin-left: auto;
 	margin-right: auto;
 	font-family: sans-serif;
+
 }
 
+#shadowboxer {
+	-moz-box-shadow: 0px 0px 10px #444;
+	-webkit-box-shadow: 0px 0px 10px #444;
+	box-shadow: 0px 0px 10px #444;
+	border-bottom-right-radius: 10px;
+	border-bottom-left-radius: 10px;
+}
 #menu {
 	background-color: #663366;
 	height: 60px;
@@ -26,7 +34,6 @@ body {
 
 }
 #logo {
-	background-image: url(/images/logo.png);
 	height: 252px;
 	width: 378px;
 	display: inline-block;
@@ -77,6 +84,9 @@ body {
 #footer-wrapper {
 	width: 801px;
 	background-color: white;
+	border-bottom-right-radius: 10px;
+	border-bottom-left-radius: 10px;
+
 }
 #footer {
 
@@ -89,6 +99,7 @@ body {
 	background-image: url(/images/newest_shopping_destination.png);
 	background-repeat: no-repeat;
 	background-position: 0 25px;
+
 }
 
 #contact-wrapper {
@@ -138,7 +149,7 @@ ul.dropdown li {
 
 	float: left; 
 	zoom: 1; 
-
+ 
 }
 
 ul.dropdown a:hover	{ 
@@ -158,7 +169,8 @@ ul.dropdown li a {
 
 
 ul.dropdown li:last-child a { 
-	border-right: none; 
+	border-right: none;
+
 } /* Doesn't work in IE */
 
 
@@ -194,7 +206,10 @@ ul.dropdown ul li {
 	color: #000; 
 	border-bottom: 1px solid #ccc; 
 	float: none; 
+
 }
+
+
 									  
                                     /* IE 6 & 7 Needs Inline Block */
 ul.dropdown ul li a { 
