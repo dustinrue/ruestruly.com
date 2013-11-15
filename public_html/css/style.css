@@ -131,13 +131,14 @@ ul {
 	LEVEL ONE
 */
 ul.dropdown { 
-	position: relative; 
+	position: relative;
 }
 
 ul.dropdown li { 
-	font-weight: bold; 
+
 	float: left; 
 	zoom: 1; 
+
 }
 
 ul.dropdown a:hover	{ 
@@ -150,14 +151,11 @@ ul.dropdown a:active {
 
 ul.dropdown li a { 
 	display: block; 
-		padding: 4px 8px;
+	padding: 4px 8px;
 	border-right: 1px solid #333;
 	color: #c4bdb8; 
 }
 
-ul.dropdown li a.menuitem {
-	padding: 4px 8px; 
-}
 
 ul.dropdown li:last-child a { 
 	border-right: none; 
@@ -185,6 +183,9 @@ ul.dropdown ul {
 	position: absolute; 
 	top: 100%; 
 	left: 0; 
+	-moz-box-shadow: 1px 1px 5px #000000;
+	-webkit-box-shadow: 1px 1px 5px #000000;
+	box-shadow: 1px 1px 5px #000000;
 }
 
 ul.dropdown ul li { 
