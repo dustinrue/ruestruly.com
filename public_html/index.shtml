@@ -1,0 +1,28 @@
+<html>
+<head>
+<title>Decor and More from Rue's Truly</title>
+<!--#include virtual="/includes/header.inc" -->
+</head>
+
+<body>
+<div>
+	<div id="logo"></div>
+	<div id="hours"></div>
+</div>
+
+<!--#include virtual="/includes/menu.inc"-->
+	
+<div id="content-wrapper">
+	<div id="content">Décor & More from Rue’s Truly opened in August of 2013. It is located in Freeport, MN next to Freeport Floral. Décor & More offers a great variety of gifts and home décor.  With a variety of items like candles, frames, toys, books and jewelry, our goal is to make your gift giving needs easy. We also carry a great selection of greeting cards and gift bags making Décor & More a one-stop shop.</div>
+</div>
+<div id="rotate"></div>
+<div id="footer-wrapper">
+	<div id="footer"></div>
+</div>
+<div id="contact-wrapper">
+  <div id="phone">320.836.2052</div>
+  <div id="address">113 1st Ave. North, Freeport, MN 56331</div>
+</div>
+<!--#include virtual="/includes/footer.inc"-->
+</body>
+</html>
